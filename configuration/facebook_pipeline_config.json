@@ -1,0 +1,53 @@
+{
+  "PipelineName": "TIS-Plus-Facebook",
+  "RawDataSources": [
+    {
+      "SourceType": "Facebook",
+      "PageID": "abdullahiosmanfarah",
+      "TokenFileURL": "gs://avf-credentials/abdullahiosmanfarah-facebook-token.txt",
+      "Datasets": [
+        {"Name": "facebook_s01e01_abdullahiosmanfarah", "PostIDs": ["348455915581168_968057120287708"]}
+      ]
+    },
+    {
+      "SourceType": "Facebook",
+      "PageID": "AbdirizakHAtosh",
+      "TokenFileURL": "gs://avf-credentials/AbdirizakHAtosh-facebook-token.txt",
+      "Datasets": [
+        {"Name": "facebook_s01e01_AbdirizakHAtosh", "PostIDs": ["1584334095169246_2750136618588982"]}
+      ]
+    }
+  ],
+  "SourceKeyRemappings": [
+    {"SourceKey": "avf_facebook_id", "PipelineKey": "uid"},
+
+    {"SourceKey": "facebook_s01e01_abdullahiosmanfarah.message", "PipelineKey": "facebook_s01e01_raw"},
+    {"SourceKey": "facebook_s01e01_abdullahiosmanfarah.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s01e01_abdullahiosmanfarah.parent", "PipelineKey": "facebook_s01e01_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s01e01_abdullahiosmanfarah.post", "PipelineKey": "facebook_s01e01_post_raw"},
+
+    {"SourceKey": "facebook_s01e01_AbdirizakHAtosh.message", "PipelineKey": "facebook_s01e01_raw"},
+    {"SourceKey": "facebook_s01e01_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s01e01_AbdirizakHAtosh.parent", "PipelineKey": "facebook_s01e01_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s01e01_AbdirizakHAtosh.post", "PipelineKey": "facebook_s01e01_post_raw"}
+  ],
+  "ProjectStartDate": "2000-01-01T00:00:00+03:00",
+  "ProjectEndDate": "2100-01-01T00:00:00+03:00",
+  "FilterTestMessages": false,
+  "MoveWSMessages": false,
+  "AutomatedAnalysis": {
+    "GenerateRegionThemeDistributionMaps": false,
+    "GenerateDistrictThemeDistributionMaps": false,
+    "GenerateMogadishuThemeDistributionMaps": false
+  },
+  "DriveUpload": {
+    "DriveCredentialsFileURL": "gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
+    "ProductionUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_production.csv",
+    "MessagesUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_messages.csv",
+    "IndividualsUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_individuals.csv",
+    "AutomatedAnalysisDir": "usaid_ibtci_analysis_outputs/facebook/automated_analysis"
+  },
+  "MemoryProfileUploadBucket":"gs://avf-pipeline-logs-performance-nearline",
+  "DataArchiveUploadBucket": "gs://pipeline-execution-backup-archive",
+  "BucketDirPath": "2020/USAID-IBTCI/Facebook/"
+}

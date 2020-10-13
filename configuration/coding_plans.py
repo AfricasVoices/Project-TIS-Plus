@@ -46,8 +46,44 @@ def clean_facebook_post_type(post):
 
 
 def get_rqa_coding_plans(pipeline_name):
-    if pipeline_name == "Tis-Plus-Facebook":
-        assert False, "Not implemented"
+    if pipeline_name == "TIS-Plus-Facebook":
+        return [
+            CodingPlan(raw_field="facebook_s01e01_raw",
+                       time_field="sent_on",
+                       run_id_field="facebook_s01e01_run_id",
+                       coda_filename="TIS_Plus_facebook_s01e01.json",
+                       icr_filename="facebook_s01e01.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.FACEBOOK_S01E01,
+                               coded_field="facebook_s01e01_coded",
+                               analysis_file_key="facebook_s01e01",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.FACEBOOK_S01E01, x, y)
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s01e01_comment_reply_to_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_COMMENT_REPLY_TO,
+                               cleaner=lambda parent: "post" if parent == {} else "comment",
+                               coded_field="facebook_s01e01_comment_reply_to_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s01e01_comment_reply_to",
+                               fold_strategy=None
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s01e01_post_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_POST_TYPE,
+                               cleaner=clean_facebook_post_type,
+                               coded_field="facebook_s01e01_post_type_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s01e01_post_type",
+                               fold_strategy=None
+                           )
+                       ],
+                       raw_field_fold_strategy=FoldStrategies.concatenate)
+        ]
     else:
         assert pipeline_name == "TIS-Plus-SMS"
         return [
@@ -71,8 +107,8 @@ def get_rqa_coding_plans(pipeline_name):
 
 
 def get_demog_coding_plans(pipeline_name):
-    if pipeline_name == "Tis-Plus-Facebook":
-        assert False, "Not implemented"
+    if pipeline_name == "TIS-Plus-Facebook":
+        return []
     else:
         assert pipeline_name == "TIS-Plus-SMS"
         return [
