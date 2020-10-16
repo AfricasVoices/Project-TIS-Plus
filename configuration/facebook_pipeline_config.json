@@ -38,12 +38,12 @@
   },
   "DriveUpload": {
     "DriveCredentialsFileURL": "gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
-    "ProductionUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_production.csv",
-    "MessagesUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_messages.csv",
-    "IndividualsUploadPath": "usaid_ibtci_analysis_outputs/facebook/usaid_ibtci_facebook_individuals.csv",
-    "AutomatedAnalysisDir": "usaid_ibtci_analysis_outputs/facebook/automated_analysis"
+    "ProductionUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_production.csv",
+    "MessagesUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_messages.csv",
+    "IndividualsUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_individuals.csv",
+    "AutomatedAnalysisDir": "tis_plus_analysis_outputs/facebook/automated_analysis"
   },
   "MemoryProfileUploadBucket":"gs://avf-pipeline-logs-performance-nearline",
   "DataArchiveUploadBucket": "gs://pipeline-execution-backup-archive",
-  "BucketDirPath": "2020/USAID-IBTCI/Facebook/"
+  "BucketDirPath": "2020/TIS-Plus/Facebook/"
 }
