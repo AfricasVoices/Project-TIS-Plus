@@ -7,7 +7,8 @@
       "TokenFileURL": "gs://avf-credentials/csap-text-it-token.txt",
       "ContactsFileName": "csap_contacts",
       "ActivationFlowNames": [
-        "csap_s09e01_activation"
+        "csap_s09e01_activation",
+        "csap_s09e02_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -55,6 +56,14 @@
     {"SourceKey": "Rqa_S09E01 (Text) - csap_s09e01_activation", "PipelineKey": "rqa_s09e01_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_S09E01 (Run ID) - csap_s09e01_activation", "PipelineKey": "rqa_s09e01_run_id"},
     {"SourceKey": "Rqa_S09E01 (Time) - csap_s09e01_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E02 (Text) - csap_s09e02_activation", "PipelineKey": "rqa_s09e02_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E02 (Run ID) - csap_s09e02_activation", "PipelineKey": "rqa_s09e02_run_id"},
+    {"SourceKey": "Rqa_S09E02 (Time) - csap_s09e02_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E03 (Text) - csap_s09e03_activation", "PipelineKey": "rqa_s09e03_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E03 (Run ID) - csap_s09e03_activation", "PipelineKey": "rqa_s09e03_run_id"},
+    {"SourceKey": "Rqa_S09E03 (Time) - csap_s09e03_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},
@@ -163,7 +172,7 @@
   ],
   "ProjectStartDate": "2020-10-12T16:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00+03:00",
-  "FilterTestMessages": true,
+  "FilterTestMessages": false,
   "MoveWSMessages": true,
   "AutomatedAnalysis": {
     "GenerateRegionThemeDistributionMaps": true,

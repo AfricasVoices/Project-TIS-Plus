@@ -16,6 +16,8 @@ DATA_ROOT=$3
 
 DATASETS=(
     "TIS_Plus_rqa_s09e01"
+    "TIS_Plus_rqa_s09e02"
+    "TIS_Plus_rqa_s09e03"
 
     "CSAP_age"
     "CSAP_gender"
