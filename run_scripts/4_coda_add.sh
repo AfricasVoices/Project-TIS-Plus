@@ -33,7 +33,7 @@ for DATASET in ${DATASETS[@]}
 do
     FILE="$DATA_ROOT/Outputs/Coda Files/$DATASET.json"
 
-    if [ -e "$FILE" ]; then
+    if [ -e "$FILE" ]; then  # Stop-gap workaround for supporting multiple pipelines until we have a Coda library
         echo "Pushing messages data to ${DATASET}..."
         pipenv run python add.py "$AUTH" "${DATASET}" messages "$FILE"
     fi
