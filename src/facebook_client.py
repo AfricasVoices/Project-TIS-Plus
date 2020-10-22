@@ -63,7 +63,7 @@ class FacebookClient(object):
 
     def get_all_posts_published_by_page(self, page_id, fields=["attachments", "created_time", "message"]):
         log.debug(f"Fetching all posts published by page '{page_id}'...")
-        posts = self._make_paged_get_request(
+        posts = self._make_get_request(
             f"/{page_id}/published_posts",
             {
                 "fields": ",".join(fields),
