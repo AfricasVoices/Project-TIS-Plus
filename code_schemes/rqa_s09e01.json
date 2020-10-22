@@ -219,7 +219,7 @@
       "MetaCode": "chasing_reply",
       "StringValue": "chasing_reply",
       "DisplayText": "meta: chasing reply",
-      "VisibleInCoda": false
+      "VisibleInCoda": true
     },
     {
       "NumericValue": -100140,
@@ -228,7 +228,7 @@
       "MetaCode": "impact",
       "StringValue": "impact",
       "DisplayText": "meta: impact",
-      "VisibleInCoda": false
+      "VisibleInCoda": true
     }
   ]
 }
