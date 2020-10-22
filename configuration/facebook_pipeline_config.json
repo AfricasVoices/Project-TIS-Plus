@@ -1,0 +1,49 @@
+{
+  "PipelineName": "TIS-Plus-Facebook",
+  "RawDataSources": [
+    {
+      "SourceType": "Facebook",
+      "PageID": "AbdirizakHAtosh",
+      "TokenFileURL": "gs://avf-credentials/AbdirizakHAtosh-facebook-token.txt",
+      "Datasets": [
+        {"Name": "facebook_s09e01_AbdirizakHAtosh", "PostIDs": [
+          "1584334095169246_2777709599165017",
+          "1584334095169246_2777732125829431",
+          "1584334095169246_2777964775806166"
+        ]}
+      ]
+    }
+  ],
+  "SourceKeyRemappings": [
+    {"SourceKey": "avf_facebook_id", "PipelineKey": "uid"},
+
+    {"SourceKey": "facebook_s09e01_abdullahiosmanfarah.message", "PipelineKey": "facebook_s09e01_raw"},
+    {"SourceKey": "facebook_s09e01_abdullahiosmanfarah.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s09e01_abdullahiosmanfarah.parent", "PipelineKey": "facebook_s09e01_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s09e01_abdullahiosmanfarah.post", "PipelineKey": "facebook_s09e01_post_raw"},
+
+    {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.message", "PipelineKey": "facebook_s09e01_raw"},
+    {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.parent", "PipelineKey": "facebook_s09e01_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.post", "PipelineKey": "facebook_s09e01_post_raw"}
+  ],
+  "ProjectStartDate": "2000-01-01T00:00:00+03:00",
+  "ProjectEndDate": "2100-01-01T00:00:00+03:00",
+  "FilterTestMessages": false,
+  "MoveWSMessages": false,
+  "AutomatedAnalysis": {
+    "GenerateRegionThemeDistributionMaps": false,
+    "GenerateDistrictThemeDistributionMaps": false,
+    "GenerateMogadishuThemeDistributionMaps": false
+  },
+  "DriveUpload": {
+    "DriveCredentialsFileURL": "gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
+    "ProductionUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_production.csv",
+    "MessagesUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_messages.csv",
+    "IndividualsUploadPath": "tis_plus_analysis_outputs/facebook/tis_plus_facebook_individuals.csv",
+    "AutomatedAnalysisDir": "tis_plus_analysis_outputs/facebook/automated_analysis"
+  },
+  "MemoryProfileUploadBucket":"gs://avf-pipeline-logs-performance-nearline",
+  "DataArchiveUploadBucket": "gs://pipeline-execution-backup-archive",
+  "BucketDirPath": "2020/TIS-Plus/Facebook/"
+}

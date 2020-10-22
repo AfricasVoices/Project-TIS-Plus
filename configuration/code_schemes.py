@@ -12,6 +12,10 @@ def _open_scheme(filename):
 class CodeSchemes(object):
     RQA_S09E01 = _open_scheme("rqa_s09e01.json")
 
+    FACEBOOK_S09E01 = _open_scheme("facebook_s09e01.json")
+    FACEBOOK_COMMENT_REPLY_TO = _open_scheme("facebook_comment_reply_to.json")
+    FACEBOOK_POST_TYPE = _open_scheme("facebook_post_type.json")
+
     SOMALIA_OPERATOR = _open_scheme("somalia_operator.json")
 
     AGE = _open_scheme("age.json")
