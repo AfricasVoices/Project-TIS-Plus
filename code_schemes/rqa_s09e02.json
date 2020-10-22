@@ -3,7 +3,62 @@
   "Name": "RQA S09E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-cdd66210",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to hold discussions with youth",
+      "NumericValue": 1,
+      "StringValue": "BRA_to_hold_discussions_with_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7a2fe4db",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to create youth committee/groups",
+      "NumericValue": 2,
+      "StringValue": "BRA_to_create_youth_committee_or_groups",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-34504037",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to provide education for youth",
+      "NumericValue": 3,
+      "StringValue": "BRA_to_provide_education_for_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-23de1be9",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation among youth",
+      "NumericValue": 4,
+      "StringValue": "unity_and_cooperation_among_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9ae7fb10",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to prioritize voices of youth",
+      "NumericValue": 5,
+      "StringValue": "BRA_to_prioritize_voices_of_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-568a73ff",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to give youth a chance",
+      "NumericValue": 6,
+      "StringValue": "BRA_to_give_youth_a_chance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d115614b",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
