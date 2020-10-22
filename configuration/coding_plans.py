@@ -103,6 +103,40 @@ def get_rqa_coding_plans(pipeline_name):
                        ],
                        ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e01"),
                        raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e02_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s08e02_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e02.json",
+                       icr_filename="rqa_s09e02.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E02,
+                               coded_field="rqa_s09e02_coded",
+                               analysis_file_key="rqa_s09e02",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E02, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e02"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e03_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s08e03_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e03.json",
+                       icr_filename="rqa_s09e03.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E03,
+                               coded_field="rqa_s09e03_coded",
+                               analysis_file_key="rqa_s09e03",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E03, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e03"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
         ]
 
 

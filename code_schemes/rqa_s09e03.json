@@ -1,64 +1,9 @@
 {
-  "SchemeID": "Scheme-bf7c3c9e",
-  "Name": "RQA S09E01",
+  "SchemeID": "Scheme-feec8747",
+  "Name": "RQA S09E03",
   "Version": "0.0.0.1",
   "Codes": [
-    {
-      "CodeID": "code-f88b7775",
-      "CodeType": "Normal",
-      "DisplayText": "youth inclusion in electoral processes",
-      "NumericValue": 1,
-      "StringValue": "youth_inclusion_in_electoral_processes",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-b5ba2d4b",
-      "CodeType": "Normal",
-      "DisplayText": "unity and cooperation among youth",
-      "NumericValue": 2,
-      "StringValue": "unity_and_cooperation_among_youth",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-a17d8aa0",
-      "CodeType": "Normal",
-      "DisplayText": "ensure just and fair elections",
-      "NumericValue": 3,
-      "StringValue": "ensure_just_and_fair_elections",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-fd7604f4",
-      "CodeType": "Normal",
-      "DisplayText": "BRA to support youth",
-      "NumericValue": 4,
-      "StringValue": "BRA_to_support_youth",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-add27609",
-      "CodeType": "Normal",
-      "DisplayText": "one man one vote",
-      "NumericValue": 5,
-      "StringValue": "one_man_one_vote",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-e4651f74",
-      "CodeType": "Normal",
-      "DisplayText": "strong financial requirement/conditions",
-      "NumericValue": 6,
-      "StringValue": "strong_financial_requirement_conditions",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-bf32edc5",
-      "CodeType": "Normal",
-      "DisplayText": "other theme",
-      "NumericValue": 7,
-      "StringValue": "other_theme",
-      "VisibleInCoda": true
-    },
+
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
