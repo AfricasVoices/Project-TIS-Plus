@@ -8,7 +8,8 @@
       "ContactsFileName": "csap_contacts",
       "ActivationFlowNames": [
         "csap_s09e01_activation",
-        "csap_s09e02_activation"
+        "csap_s09e02_activation",
+        "csap_s09e03_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
