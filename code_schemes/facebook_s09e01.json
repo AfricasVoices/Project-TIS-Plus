@@ -1,179 +1,159 @@
 {
-    "SchemeID": "Scheme-a987cc0b",
-    "Name": "Facebook S09E01",
-    "Version": "0.0.0.1",
-    "Codes": [
-
-      {
-        "CodeID": "code-NA-f93d3eb7",
-        "CodeType": "Control",
-        "ControlCode": "NA",
-        "DisplayText": "NA (missing)",
-        "NumericValue": -10,
-        "StringValue": "NA",
-        "VisibleInCoda": false
-      },
-      {
-        "CodeID": "code-NS-2c11b7c9",
-        "CodeType": "Control",
-        "ControlCode": "NS",
-        "DisplayText": "NS (skip)",
-        "NumericValue": -20,
-        "StringValue": "NS",
-        "VisibleInCoda": false
-      },
-      {
-        "CodeID": "code-NC-42f1d983",
-        "CodeType": "Control",
-        "ControlCode": "NC",
-        "DisplayText": "NC (not coded)",
-        "NumericValue": -30,
-        "StringValue": "NC",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-NR-5e3eee23",
-        "CodeType": "Control",
-        "ControlCode": "NR",
-        "DisplayText": "NR (not reviewed)",
-        "NumericValue": -40,
-        "StringValue": "NR",
-        "VisibleInCoda": false
-      },
-      {
-        "CodeID": "code-NIC-99631cb8",
-        "CodeType": "Control",
-        "ControlCode": "NIC",
-        "DisplayText": "NIC (not internally consistent)",
-        "NumericValue": -50,
-        "StringValue": "NIC",
-        "VisibleInCoda": false
-      },
-      {
-        "CodeID": "code-STOP-08b832a8",
-        "CodeType": "Control",
-        "ControlCode": "STOP",
-        "DisplayText": "STOP",
-        "NumericValue": -90,
-        "StringValue": "STOP",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-WS-adb25603b7af",
-        "CodeType": "Control",
-        "ControlCode": "WS",
-        "DisplayText": "WS (wrong scheme)",
-        "NumericValue": -100,
-        "StringValue": "WS",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-CE-016c1e22",
-        "CodeType": "Control",
-        "ControlCode": "CE",
-        "DisplayText": "CE (coding error)",
-        "NumericValue": -110,
-        "StringValue": "CE",
-        "VisibleInCoda": false
-      },
-      {
-        "CodeID": "code-PB-a434a800",
-        "CodeType": "Meta",
-        "MetaCode": "push_back",
-        "DisplayText": "meta: push back",
-        "NumericValue": -100000,
-        "StringValue": "push_back",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-SQ-5e8f0122",
-        "CodeType": "Meta",
-        "MetaCode": "showtime_question",
-        "DisplayText": "meta: showtime question",
-        "NumericValue": -100030,
-        "StringValue": "showtime_question",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-G-97cb3199",
-        "CodeType": "Meta",
-        "MetaCode": "greeting",
-        "DisplayText": "meta: greeting",
-        "NumericValue": -100020,
-        "StringValue": "greeting",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-OI-c5f1d054",
-        "CodeType": "Meta",
-        "MetaCode": "opt-in",
-        "DisplayText": "meta: opt-in",
-        "NumericValue": -100040,
-        "StringValue": "opt_in",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-SC-a3a065bc",
-        "CodeType": "Meta",
-        "MetaCode": "similar_content",
-        "DisplayText": "meta: similar content",
-        "NumericValue": -100050,
-        "StringValue": "similar_content",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-PI-83b90d32",
-        "CodeType": "Meta",
-        "MetaCode": "participation_incentive",
-        "DisplayText": "meta: participation incentive",
-        "NumericValue": -100060,
-        "StringValue": "participation_incentive",
-        "VisibleInCoda": true
-      },
-      {
-        "CodeID": "code-EC-3a704f5b",
-        "CodeType": "Meta",
-        "MetaCode": "exclusion_complaint",
-        "DisplayText": "meta: exclusion complaint",
-        "NumericValue": -100070,
-        "StringValue": "exclusion_complaint",
-        "VisibleInCoda": true
-      },
-      {
-        "MetaCode": "other",
-        "StringValue": "other",
-        "DisplayText": "meta: other",
-        "VisibleInCoda": false,
-        "NumericValue": -100110,
-        "CodeID": "code-O-7ce0d2a7",
-        "CodeType": "Meta"
-      },
-      {
-        "DisplayText": "meta: gratitude",
-        "VisibleInCoda": true,
-        "NumericValue": -100100,
-        "CodeID": "code-GR-e6de1b7e",
-        "CodeType": "Meta",
-        "MetaCode": "gratitude",
-        "StringValue": "gratitude"
-      },
-      {
-        "DisplayText": "meta: about conversation",
-        "VisibleInCoda": false,
-        "CodeID": "code-AC-9ed22631",
-        "NumericValue": -100120,
-        "CodeType": "Meta",
-        "MetaCode": "about_conversation",
-        "StringValue": "about_conversation"
-      },
-      {
-        "NumericValue": -100130,
-        "CodeID": "code-CR-8e99616b",
-        "CodeType": "Meta",
-        "MetaCode": "chasing_reply",
-        "StringValue": "chasing_reply",
-        "DisplayText": "meta: chasing reply",
-        "VisibleInCoda": false
-      }
-    ]
+  "SchemeID": "Scheme-b987cc0b",
+  "Name": "Facebook S09E01",
+  "Version": "0.0.0.1",
+  "Codes": [
+    {
+      "CodeID": "code-9e71f152",
+      "CodeType": "Normal",
+      "DisplayText": "eliminating the 4.5 system",
+      "NumericValue": 1,
+      "StringValue": "eliminating_the_4_5_system",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-40cb27a8",
+      "CodeType": "Normal",
+      "DisplayText": "remove elders from the electoral process",
+      "NumericValue": 2,
+      "StringValue": "remove_elders_from_the_electoral_process",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-5f5cba86",
+      "CodeType": "Normal",
+      "DisplayText": "give chance to youth",
+      "NumericValue": 3,
+      "StringValue": "give_chance_to_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4d0063f2",
+      "CodeType": "Normal",
+      "DisplayText": "strong financial requirement",
+      "NumericValue": 4,
+      "StringValue": "strong_financial_requirement",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3a14d110",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 5,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ed617d7c",
+      "CodeType": "Normal",
+      "DisplayText": "agreeing with others",
+      "NumericValue": 6,
+      "StringValue": "agreeing_with_others",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b7eb9bc9",
+      "CodeType": "Normal",
+      "DisplayText": "disagreeing with others",
+      "NumericValue": 7,
+      "StringValue": "disagreeing_with_others",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e9ad4bac",
+      "CodeType": "Normal",
+      "DisplayText": "comment to page owner",
+      "NumericValue": 8,
+      "StringValue": "comment_to_page_owner",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0bc2370f",
+      "CodeType": "Normal",
+      "DisplayText": "other side discussions",
+      "NumericValue": 9,
+      "StringValue": "other_side_discussions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2ac075f1",
+      "CodeType": "Normal",
+      "DisplayText": "only emoji",
+      "NumericValue": 10,
+      "StringValue": "only_emoji",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-NA-f93d3eb7",
+      "CodeType": "Control",
+      "ControlCode": "NA",
+      "DisplayText": "NA (missing)",
+      "NumericValue": -10,
+      "StringValue": "NA",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-NS-2c11b7c9",
+      "CodeType": "Control",
+      "ControlCode": "NS",
+      "DisplayText": "NS (skip)",
+      "NumericValue": -20,
+      "StringValue": "NS",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-NC-42f1d983",
+      "CodeType": "Control",
+      "ControlCode": "NC",
+      "DisplayText": "NC (not coded)",
+      "NumericValue": -30,
+      "StringValue": "NC",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-NR-5e3eee23",
+      "CodeType": "Control",
+      "ControlCode": "NR",
+      "DisplayText": "NR (not reviewed)",
+      "NumericValue": -40,
+      "StringValue": "NR",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-NIC-99631cb8",
+      "CodeType": "Control",
+      "ControlCode": "NIC",
+      "DisplayText": "NIC (not internally consistent)",
+      "NumericValue": -50,
+      "StringValue": "NIC",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-STOP-08b832a8",
+      "CodeType": "Control",
+      "ControlCode": "STOP",
+      "DisplayText": "STOP",
+      "NumericValue": -90,
+      "StringValue": "STOP",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-WS-adb25603b7af",
+      "CodeType": "Control",
+      "ControlCode": "WS",
+      "DisplayText": "WS (wrong scheme)",
+      "NumericValue": -100,
+      "StringValue": "WS",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-CE-016c1e22",
+      "CodeType": "Control",
+      "ControlCode": "CE",
+      "DisplayText": "CE (coding error)",
+      "NumericValue": -110,
+      "StringValue": "CE",
+      "VisibleInCoda": false
+    }
+  ]
 }
