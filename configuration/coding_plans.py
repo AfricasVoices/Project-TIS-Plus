@@ -121,6 +121,43 @@ def get_rqa_coding_plans(pipeline_name):
                                fold_strategy=None
                            )
                        ],
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="facebook_s09e03_raw",
+                       time_field="sent_on",
+                       run_id_field="facebook_s09e03_run_id",
+                       coda_filename="TIS_Plus_facebook_s09e03.json",
+                       icr_filename="facebook_s09e03.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.FACEBOOK_S09E03,
+                               coded_field="facebook_s09e03_coded",
+                               analysis_file_key="facebook_s09e03",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.FACEBOOK_S09E03, x,
+                                                                                        y)
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s09e03_comment_reply_to_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_COMMENT_REPLY_TO,
+                               cleaner=lambda parent: "post" if parent == {} else "comment",
+                               coded_field="facebook_s09e03_comment_reply_to_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s09e03_comment_reply_to",
+                               fold_strategy=None
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s09e03_post_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_POST_TYPE,
+                               cleaner=clean_facebook_post_type,
+                               coded_field="facebook_s09e03_post_type_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s09e03_post_type",
+                               fold_strategy=None
+                           )
+                       ],
                        raw_field_fold_strategy=FoldStrategies.concatenate)
         ]
     else:
