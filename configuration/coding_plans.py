@@ -127,6 +127,7 @@ def get_rqa_coding_plans(pipeline_name):
                        time_field="sent_on",
                        run_id_field="facebook_s09e03_run_id",
                        coda_filename="TIS_Plus_facebook_s09e03.json",
+                       message_id_fn=lambda td: SHAUtils.sha_string(td["facebook_s09e03_comment_id"]),
                        icr_filename="facebook_s09e03.csv",
                        coding_configurations=[
                            CodingConfiguration(

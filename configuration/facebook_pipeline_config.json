@@ -17,7 +17,8 @@
           "1584334095169246_2782934238642553"
         ]},
         {"Name": "facebook_s09e03_AbdirizakHAtosh", "PostIDs": [
-          "1584334095169246_2790261611243149"
+          "1584334095169246_2790261611243149",
+          "1584334095169246_2878568705704586"
         ]}
       ]
     }
@@ -44,6 +45,7 @@
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.post", "PipelineKey": "facebook_s09e02_post_raw"},
     
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.message", "PipelineKey": "facebook_s09e03_raw"},
+    {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.id", "PipelineKey": "facebook_s09e03_comment_id"},
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.parent", "PipelineKey": "facebook_s09e03_comment_reply_to_raw"},
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.post", "PipelineKey": "facebook_s09e03_post_raw"}
