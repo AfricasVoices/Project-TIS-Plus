@@ -1,5 +1,6 @@
 from core_data_modules.cleaners import somali, swahili, Codes
 from core_data_modules.traced_data.util.fold_traced_data import FoldStrategies
+from core_data_modules.util import SHAUtils
 
 from configuration import code_imputation_functions
 from configuration.code_schemes import CodeSchemes
@@ -52,6 +53,7 @@ def get_rqa_coding_plans(pipeline_name):
                        time_field="sent_on",
                        run_id_field="facebook_s09e01_run_id",
                        coda_filename="TIS_Plus_facebook_s09e01.json",
+                       message_id_fn=lambda td: SHAUtils.sha_string(td["facebook_s09e01_comment_id"]),
                        icr_filename="facebook_s09e01.csv",
                        coding_configurations=[
                            CodingConfiguration(
@@ -88,6 +90,7 @@ def get_rqa_coding_plans(pipeline_name):
                        time_field="sent_on",
                        run_id_field="facebook_s09e02_run_id",
                        coda_filename="TIS_Plus_facebook_s09e02.json",
+                       message_id_fn=lambda td: SHAUtils.sha_string(td["facebook_s09e02_comment_id"]),
                        icr_filename="facebook_s09e02.csv",
                        coding_configurations=[
                            CodingConfiguration(
@@ -115,6 +118,44 @@ def get_rqa_coding_plans(pipeline_name):
                                coded_field="facebook_s09e02_post_type_coded",
                                requires_manual_verification=False,
                                analysis_file_key="facebook_s09e02_post_type",
+                               fold_strategy=None
+                           )
+                       ],
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="facebook_s09e03_raw",
+                       time_field="sent_on",
+                       run_id_field="facebook_s09e03_run_id",
+                       coda_filename="TIS_Plus_facebook_s09e03.json",
+                       message_id_fn=lambda td: SHAUtils.sha_string(td["facebook_s09e03_comment_id"]),
+                       icr_filename="facebook_s09e03.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.FACEBOOK_S09E03,
+                               coded_field="facebook_s09e03_coded",
+                               analysis_file_key="facebook_s09e03",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.FACEBOOK_S09E03, x,
+                                                                                        y)
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s09e03_comment_reply_to_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_COMMENT_REPLY_TO,
+                               cleaner=lambda parent: "post" if parent == {} else "comment",
+                               coded_field="facebook_s09e03_comment_reply_to_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s09e03_comment_reply_to",
+                               fold_strategy=None
+                           ),
+                           CodingConfiguration(
+                               raw_field="facebook_s09e03_post_raw",
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.FACEBOOK_POST_TYPE,
+                               cleaner=clean_facebook_post_type,
+                               coded_field="facebook_s09e03_post_type_coded",
+                               requires_manual_verification=False,
+                               analysis_file_key="facebook_s09e03_post_type",
                                fold_strategy=None
                            )
                        ],
