@@ -3,7 +3,70 @@
   "Name": "RQA S09E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-02c66c6c",
+      "CodeType": "Normal",
+      "DisplayText": "women should get their role",
+      "NumericValue": 1,
+      "StringValue": "women_should_get_their_role",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-affaba1f",
+      "CodeType": "Normal",
+      "DisplayText": "BRA to include women in leadership",
+      "NumericValue": 2,
+      "StringValue": "BRA_to_include_women_in_leadership",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a12d84ea",
+      "CodeType": "Normal",
+      "DisplayText": "awareness creation",
+      "NumericValue": 3,
+      "StringValue": "awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7c2ed18f",
+      "CodeType": "Normal",
+      "DisplayText": "give women their rights",
+      "NumericValue": 4,
+      "StringValue": "give_women_their_rights",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-301a18d5",
+      "CodeType": "Normal",
+      "DisplayText": "educate women",
+      "NumericValue": 5,
+      "StringValue": "educate_women",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b337d48a",
+      "CodeType": "Normal",
+      "DisplayText": "religion does not allow",
+      "NumericValue": 6,
+      "StringValue": "religion_does_not_allow",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f138a46d",
+      "CodeType": "Normal",
+      "DisplayText": "politics is not for women",
+      "NumericValue": 7,
+      "StringValue": "politics_is_not_for_women",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-41d55bdf",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
