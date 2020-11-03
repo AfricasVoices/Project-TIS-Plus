@@ -3,7 +3,46 @@
   "Name": "Facebook S09E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-7f1ce45b",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation among youth",
+      "NumericValue": 1,
+      "StringValue": "unity_and_cooperation_among_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-712c1d8e",
+      "CodeType": "Normal",
+      "DisplayText": "give chance to youth",
+      "NumericValue": 2,
+      "StringValue": "give_chance_to_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-04be5a75",
+      "CodeType": "Normal",
+      "DisplayText": "stop interference from elderly people",
+      "NumericValue": 3,
+      "StringValue": "stop_interference_from_elderly_people",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7ff76f66",
+      "CodeType": "Normal",
+      "DisplayText": "priority should be given to youth",
+      "NumericValue": 4,
+      "StringValue": "priority_should_be_given_to_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-8b339b58",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 5,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
