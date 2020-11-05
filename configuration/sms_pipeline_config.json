@@ -52,6 +52,14 @@
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
     "TableName": "ADSS"
   },
+  "TimestampRemappings": [
+    {
+      "TimeKey": "Rqa_S09E03 (Time) - csap_s09e03_activation",
+      "ShowPipelineKeyToRemapTo": "rqa_s09e03_break_raw",
+      "RangeStartInclusive": "2020-11-02T00:00:00+03:00",
+      "RangeEndExclusive": "2020-11-05T24:00:00+03:00"
+    }
+  ],
   "SourceKeyRemappings": [
     {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
 
