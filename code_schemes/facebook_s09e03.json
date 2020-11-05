@@ -6,9 +6,9 @@
     {
       "CodeID": "code-377d032e",
       "CodeType": "Normal",
-      "DisplayText": "Women should stay in their homes",
+      "DisplayText": "women should stay in their homes",
       "NumericValue": 1,
-      "StringValue": "Women_should_stay_in_their_homes",
+      "StringValue": "women_should_stay_in_their_homes",
       "VisibleInCoda": true
     },
     {
@@ -24,7 +24,7 @@
       "CodeType": "Normal",
       "DisplayText": "listen to women's voices",
       "NumericValue": 3,
-      "StringValue": "listen_to_women's_voices",
+      "StringValue": "listen_to_womens_voices",
       "VisibleInCoda": true
     },
     {
