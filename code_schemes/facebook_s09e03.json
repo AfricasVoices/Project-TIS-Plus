@@ -3,7 +3,86 @@
   "Name": "Facebook S09E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-377d032e",
+      "CodeType": "Normal",
+      "DisplayText": "women should stay in their homes",
+      "NumericValue": 1,
+      "StringValue": "women_should_stay_in_their_homes",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-98d84383",
+      "CodeType": "Normal",
+      "DisplayText": "religion does not allow",
+      "NumericValue": 2,
+      "StringValue": "religion_does_not_allow",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2505b3f4",
+      "CodeType": "Normal",
+      "DisplayText": "listen to women's voices",
+      "NumericValue": 3,
+      "StringValue": "listen_to_womens_voices",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d6f41b6b",
+      "CodeType": "Normal",
+      "DisplayText": "women political participation is important",
+      "NumericValue": 4,
+      "StringValue": "women_political_participation_is_important",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a1248f13",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 5,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ed617d7c",
+      "CodeType": "Normal",
+      "DisplayText": "agreeing with others",
+      "NumericValue": 6,
+      "StringValue": "agreeing_with_others",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b7eb9bc9",
+      "CodeType": "Normal",
+      "DisplayText": "disagreeing with others",
+      "NumericValue": 7,
+      "StringValue": "disagreeing_with_others",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e9ad4bac",
+      "CodeType": "Normal",
+      "DisplayText": "comment to page owner",
+      "NumericValue": 8,
+      "StringValue": "comment_to_page_owner",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0bc2370f",
+      "CodeType": "Normal",
+      "DisplayText": "other side discussions",
+      "NumericValue": 9,
+      "StringValue": "other_side_discussions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2ac075f1",
+      "CodeType": "Normal",
+      "DisplayText": "only emoji",
+      "NumericValue": 10,
+      "StringValue": "only_emoji",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
