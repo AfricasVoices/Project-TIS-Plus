@@ -9,7 +9,8 @@
       "ActivationFlowNames": [
         "csap_s09e01_activation",
         "csap_s09e02_activation",
-        "csap_s09e03_activation"
+        "csap_s09e03_activation",
+        "csap_s09e03_break_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -51,6 +52,14 @@
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
     "TableName": "ADSS"
   },
+  "TimestampRemappings": [
+    {
+      "TimeKey": "Rqa_S09E03 (Time) - csap_s09e03_activation",
+      "ShowPipelineKeyToRemapTo": "rqa_s09e03_break_raw",
+      "RangeStartInclusive": "2020-11-02T00:00:00+03:00",
+      "RangeEndExclusive": "2020-11-05T24:00:00+03:00"
+    }
+  ],
   "SourceKeyRemappings": [
     {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
 
@@ -65,6 +74,10 @@
     {"SourceKey": "Rqa_S09E03 (Text) - csap_s09e03_activation", "PipelineKey": "rqa_s09e03_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_S09E03 (Run ID) - csap_s09e03_activation", "PipelineKey": "rqa_s09e03_run_id"},
     {"SourceKey": "Rqa_S09E03 (Time) - csap_s09e03_activation", "PipelineKey": "sent_on"},
+
+    {"SourceKey": "Rqa_S09E03_Break (Text) - csap_s09e03_break_activation", "PipelineKey": "rqa_s09e03_break_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E03_Break (Run ID) - csap_s09e03_break_activation", "PipelineKey": "rqa_s09e03_break_run_id"},
+    {"SourceKey": "Rqa_S09E03_Break (Time) - csap_s09e03_break_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},

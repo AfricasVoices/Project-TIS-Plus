@@ -13,6 +13,7 @@ class CodeSchemes(object):
     RQA_S09E01 = _open_scheme("rqa_s09e01.json")
     RQA_S09E02 = _open_scheme("rqa_s09e02.json")
     RQA_S09E03 = _open_scheme("rqa_s09e03.json")
+    RQA_S09E03_BREAK = _open_scheme("rqa_s09e03_break.json")
 
     FACEBOOK_S09E01 = _open_scheme("facebook_s09e01.json")
     FACEBOOK_S09E02 = _open_scheme("facebook_s09e02.json")

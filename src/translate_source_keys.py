@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 
 import pytz
@@ -32,7 +33,7 @@ class TranslateSourceKeys(object):
                 if not remapping.is_activation_message:
                     continue
 
-                if td.get(remapping.source_key) is not None:
+                if remapping.source_key in td:
                     assert "rqa_message" not in show_dict
                     show_dict["rqa_message"] = td[remapping.source_key]
                     show_dict["show_pipeline_key"] = remapping.pipeline_key
