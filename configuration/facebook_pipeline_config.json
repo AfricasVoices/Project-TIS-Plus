@@ -1,7 +1,7 @@
 {
   "PipelineName": "TIS-Plus-Facebook",
   "RawDataSources": [
-     {
+    {
       "SourceType": "Facebook",
       "PageID": "AbdirizakHAtosh",
       "TokenFileURL": "gs://avf-credentials/AbdirizakHAtosh-facebook-token.txt",
