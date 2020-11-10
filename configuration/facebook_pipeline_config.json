@@ -24,7 +24,7 @@
     },
     {
       "SourceType": "Facebook",
-      "PageID": "M2A-Media-Communication-Consultancy-548414038603623",
+      "PageID": "548414038603623",
       "TokenFileURL": "gs://avf-credentials/M2A-Media-Communication-Consultancy-548414038603623-facebook-token.txt",
       "Datasets": [
         {"Name": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623", "PostIDs": [
