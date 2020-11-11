@@ -126,8 +126,11 @@ class FacebookClient(object):
         return comments
 
     @staticmethod
-    def convert_facebook_comments_to_traced_data(user, dataset_name, raw_comments):
+    def convert_facebook_comments_to_traced_data(user, dataset_name, raw_comments, facebook_uuid_table):
         log.info(f"Converting {len(raw_comments)} Facebook comments to TracedData...")
+
+        facebook_uuids = {comment["from"]["id"] for comment in raw_comments}
+        facebook_to_uuid_lut = facebook_uuid_table.data_to_uuid_batch(facebook_uuids)
 
         traced_comments = []
         # Use a placeholder avf facebook id for now, to make the individuals file work until we know if we'll be able
@@ -137,7 +140,7 @@ class FacebookClient(object):
             validators.validate_utc_iso_string(comment["created_time"])
 
             comment_dict = {
-                "avf_facebook_id": comment["from"]["id"]
+                "avf_facebook_id": facebook_to_uuid_lut[comment["from"]["id"]]
             }
             for k, v in comment.items():
                 comment_dict[f"{dataset_name}.{k}"] = v
