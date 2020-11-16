@@ -194,7 +194,7 @@ def fetch_from_recovery_csv(user, google_cloud_credentials_file_path, raw_data_d
         log.info(f"Exported TracedData")
 
 
-def fetch_from_facebook(user, google_cloud_credentials_file_path, raw_data_dir, phone_number_uuid_table, facebook_source):
+def fetch_from_facebook(user, google_cloud_credentials_file_path, raw_data_dir, facebook_uuid_table, facebook_source):
     log.info("Fetching data from Facebook...")
     log.info("Downloading Facebook access token...")
     facebook_token = google_cloud_utils.download_blob_to_string(
@@ -234,7 +234,7 @@ def fetch_from_facebook(user, google_cloud_credentials_file_path, raw_data_dir, 
 
         # Convert the comments to TracedData.
         traced_comments = facebook.convert_facebook_comments_to_traced_data(
-            user, dataset.name, raw_comments, phone_number_uuid_table)
+            user, dataset.name, raw_comments, facebook_uuid_table)
 
         # Export to disk.
         log.info(f"Saving {len(raw_comments)} raw comments to {raw_comments_output_path}...")
