@@ -10,7 +10,8 @@
         "csap_s09e01_activation",
         "csap_s09e02_activation",
         "csap_s09e03_activation",
-        "csap_s09e03_break_activation"
+        "csap_s09e03_break_activation",
+        "csap_s09e04_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -79,6 +80,26 @@
     {"SourceKey": "Rqa_S09E03_Break (Text) - csap_s09e03_break_activation", "PipelineKey": "rqa_s09e03_break_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_S09E03_Break (Run ID) - csap_s09e03_break_activation", "PipelineKey": "rqa_s09e03_break_run_id"},
     {"SourceKey": "Rqa_S09E03_Break (Time) - csap_s09e03_break_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E04 (Text) - csap_s09e04_activation", "PipelineKey": "rqa_s09e04_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E04 (Run ID) - csap_s09e04_activation", "PipelineKey": "rqa_s09e04_run_id"},
+    {"SourceKey": "Rqa_S09E04 (Time) - csap_s09e04_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E05 (Text) - csap_s09e05_activation", "PipelineKey": "rqa_s09e05_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E05 (Run ID) - csap_s09e05_activation", "PipelineKey": "rqa_s09e05_run_id"},
+    {"SourceKey": "Rqa_S09E05 (Time) - csap_s09e05_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E06 (Text) - csap_s09e06_activation", "PipelineKey": "rqa_s09e06_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E06 (Run ID) - csap_s09e06_activation", "PipelineKey": "rqa_s09e06_run_id"},
+    {"SourceKey": "Rqa_S09E06 (Time) - csap_s09e06_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E07 (Text) - csap_s09e07_activation", "PipelineKey": "rqa_s09e07_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E07 (Run ID) - csap_s09e07_activation", "PipelineKey": "rqa_s09e07_run_id"},
+    {"SourceKey": "Rqa_S09E07 (Time) - csap_s09e07_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S09E08 (Text) - csap_s09e08_activation", "PipelineKey": "rqa_s09e08_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S09E08 (Run ID) - csap_s09e08_activation", "PipelineKey": "rqa_s09e08_run_id"},
+    {"SourceKey": "Rqa_S09E08 (Time) - csap_s09e08_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},

@@ -19,6 +19,11 @@ DATASETS=(
     "TIS_Plus_rqa_s09e02"
     "TIS_Plus_rqa_s09e03"
     "TIS_Plus_rqa_s09e03_break"
+    "TIS_Plus_rqa_s09e04"
+    "TIS_Plus_rqa_s09e05"
+    "TIS_Plus_rqa_s09e06"
+    "TIS_Plus_rqa_s09e07"
+    "TIS_Plus_rqa_s09e08"
 
     "TIS_Plus_facebook_s09e01"
     "TIS_Plus_facebook_s09e02"
