@@ -236,6 +236,91 @@ def get_rqa_coding_plans(pipeline_name):
                            )
                        ],
                        ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e03 break"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e04_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s09e04_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e04.json",
+                       icr_filename="rqa_s09e04.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E04,
+                               coded_field="rqa_s09e04_coded",
+                               analysis_file_key="rqa_s09e04",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E04, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e04"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e05_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s09e05_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e05.json",
+                       icr_filename="rqa_s09e05.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E05,
+                               coded_field="rqa_s09e05_coded",
+                               analysis_file_key="rqa_s09e05",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E05, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e05"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e06_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s09e06_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e06.json",
+                       icr_filename="rqa_s09e06.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E06,
+                               coded_field="rqa_s09e06_coded",
+                               analysis_file_key="rqa_s09e06",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E06, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e06"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e07_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s09e07_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e07.json",
+                       icr_filename="rqa_s09e07.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E07,
+                               coded_field="rqa_s09e07_coded",
+                               analysis_file_key="rqa_s09e07",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E07, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e07"),
+                       raw_field_fold_strategy=FoldStrategies.concatenate),
+
+            CodingPlan(raw_field="rqa_s09e08_raw",
+                       time_field="sent_on",
+                       run_id_field="rqa_s09e08_run_id",
+                       coda_filename="TIS_Plus_rqa_s09e08.json",
+                       icr_filename="rqa_s09e08.csv",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.MULTIPLE,
+                               code_scheme=CodeSchemes.RQA_S09E08,
+                               coded_field="rqa_s09e08_coded",
+                               analysis_file_key="rqa_s09e08",
+                               fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S09E08, x, y)
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s09e08"),
                        raw_field_fold_strategy=FoldStrategies.concatenate)
         ]
 

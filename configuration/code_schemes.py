@@ -14,6 +14,11 @@ class CodeSchemes(object):
     RQA_S09E02 = _open_scheme("rqa_s09e02.json")
     RQA_S09E03 = _open_scheme("rqa_s09e03.json")
     RQA_S09E03_BREAK = _open_scheme("rqa_s09e03_break.json")
+    RQA_S09E04 = _open_scheme("rqa_s09e04.json")
+    RQA_S09E05 = _open_scheme("rqa_s09e05.json")
+    RQA_S09E06 = _open_scheme("rqa_s09e06.json")
+    RQA_S09E07 = _open_scheme("rqa_s09e07.json")
+    RQA_S09E08 = _open_scheme("rqa_s09e08.json")
 
     FACEBOOK_S09E01 = _open_scheme("facebook_s09e01.json")
     FACEBOOK_S09E02 = _open_scheme("facebook_s09e02.json")
