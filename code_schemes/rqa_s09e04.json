@@ -3,7 +3,70 @@
   "Name": "RQA S09E04",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-4871374e",
+      "CodeType": "Normal",
+      "DisplayText": "leave it for the elders",
+      "NumericValue": 1,
+      "StringValue": "leave_it_for_the_elders",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7b48f3f0",
+      "CodeType": "Normal",
+      "DisplayText": "youth should contest",
+      "NumericValue": 2,
+      "StringValue": "youth_should_contest",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-28023e05",
+      "CodeType": "Normal",
+      "DisplayText": "both youth and elders can contest",
+      "NumericValue": 3,
+      "StringValue": "both_youth_and_elders_can_contest",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ba0deb83",
+      "CodeType": "Normal",
+      "DisplayText": "elders are unjust",
+      "NumericValue": 4,
+      "StringValue": "elders_are_unjust",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9225bf60",
+      "CodeType": "Normal",
+      "DisplayText": "elders are the best to contest",
+      "NumericValue": 5,
+      "StringValue": "elders_are_the_best_to_contest",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-66b37101",
+      "CodeType": "Normal",
+      "DisplayText": "drama impact/impressions",
+      "NumericValue": 6,
+      "StringValue": "drama_impact_impressions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-46f5f172",
+      "CodeType": "Normal",
+      "DisplayText": "youth togetherness",
+      "NumericValue": 7,
+      "StringValue": "youth_togetherness",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cc514d76",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
