@@ -3,7 +3,78 @@
   "Name": "RQA S09E05",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-a587c3d9",
+      "CodeType": "Normal",
+      "DisplayText": "seek education",
+      "NumericValue": 1,
+      "StringValue": "seek_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-17cbfa6c",
+      "CodeType": "Normal",
+      "DisplayText": "form groups/orgs",
+      "NumericValue": 2,
+      "StringValue": "form_groups_or_orgs",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-07e962b8",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation",
+      "NumericValue": 3,
+      "StringValue": "unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-8d00dcb0",
+      "CodeType": "Normal",
+      "DisplayText": "participate in politics",
+      "NumericValue": 4,
+      "StringValue": "participate_in_politics",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a1226617",
+      "CodeType": "Normal",
+      "DisplayText": "courage and hard work",
+      "NumericValue": 5,
+      "StringValue": "courage_and_hard_work",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a479bbaa",
+      "CodeType": "Normal",
+      "DisplayText": "not to participate in politics",
+      "NumericValue": 6,
+      "StringValue": "not_to_participate_in_politics",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f0af2cc0",
+      "CodeType": "Normal",
+      "DisplayText": "drama impact/impressions",
+      "NumericValue": 7,
+      "StringValue": "drama_impact_or_impressions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7799347c",
+      "CodeType": "Normal",
+      "DisplayText": "general advice",
+      "NumericValue": 8,
+      "StringValue": "general_advice",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-564ebc3c",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
