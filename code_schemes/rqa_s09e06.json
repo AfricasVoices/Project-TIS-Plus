@@ -3,7 +3,78 @@
   "Name": "RQA S09E06",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-728ec414",
+      "CodeType": "Normal",
+      "DisplayText": "youth self-confidence",
+      "NumericValue": 1,
+      "StringValue": "youth_self_confidence",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-75f8a6cc",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation",
+      "NumericValue": 2,
+      "StringValue": "unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f471342e",
+      "CodeType": "Normal",
+      "DisplayText": "youth participation within the community",
+      "NumericValue": 3,
+      "StringValue": "youth_participation_within_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1e0f6cb6",
+      "CodeType": "Normal",
+      "DisplayText": "give youth a chance",
+      "NumericValue": 4,
+      "StringValue": "give_youth_a_chance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6ee9736b",
+      "CodeType": "Normal",
+      "DisplayText": "awareness creation/encouragement",
+      "NumericValue": 5,
+      "StringValue": "awareness_creation_or_encouragement",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f45483b4",
+      "CodeType": "Normal",
+      "DisplayText": "youth to be honest and hardworking",
+      "NumericValue": 6,
+      "StringValue": "youth_to_be_honest_and_hardworking",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3984d8a1",
+      "CodeType": "Normal",
+      "DisplayText": "educate youth",
+      "NumericValue": 7,
+      "StringValue": "educate_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6bc82622",
+      "CodeType": "Normal",
+      "DisplayText": "drama impact/impressions",
+      "NumericValue": 8,
+      "StringValue": "drama_impact_or_impressions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-dfe85b28",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
