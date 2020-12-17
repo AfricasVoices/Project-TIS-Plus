@@ -14,7 +14,8 @@
         "csap_s09e04_activation",
         "csap_s09e05_activation",
         "csap_s09e06_activation",
-        "csap_s09e07_activation"
+        "csap_s09e07_activation",
+        "csap_s09e08_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
