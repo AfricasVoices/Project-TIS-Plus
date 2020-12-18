@@ -1,27 +1,7 @@
 {
   "PipelineName": "TIS-Plus-Facebook",
   "RawDataSources": [
-    {
-      "SourceType": "Facebook",
-      "PageID": "AbdirizakHAtosh",
-      "TokenFileURL": "gs://avf-credentials/AbdirizakHAtosh-facebook-token.txt",
-      "Datasets": [
-        {"Name": "facebook_s09e01_AbdirizakHAtosh", "PostIDs": [
-          "1584334095169246_2777709599165017",
-          "1584334095169246_2777732125829431",
-          "1584334095169246_2777964775806166"
-        ]},
-        {"Name": "facebook_s09e02_AbdirizakHAtosh", "PostIDs": [
-          "1584334095169246_2782932668642710",
-          "1584334095169246_2783364205266223",
-          "1584334095169246_2782934238642553"
-        ]},
-        {"Name": "facebook_s09e03_AbdirizakHAtosh", "PostIDs": [
-          "1584334095169246_2790261611243149",
-          "1584334095169246_2878568705704586"
-        ]}
-      ]
-    },
+
     {
       "SourceType": "Facebook",
       "PageID": "548414038603623",
