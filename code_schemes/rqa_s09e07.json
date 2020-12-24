@@ -3,7 +3,62 @@
   "Name": "RQA S09E07",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-07f3e9aa",
+      "CodeType": "Normal",
+      "DisplayText": "youth can bring change",
+      "NumericValue": 1,
+      "StringValue": "youth_can_bring_change",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9747155d",
+      "CodeType": "Normal",
+      "DisplayText": "youth are/can be the real leaders",
+      "NumericValue": 2,
+      "StringValue": "youth_are_or_can_be_the_real_leaders",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7f98d4e3",
+      "CodeType": "Normal",
+      "DisplayText": "give youth a chance",
+      "NumericValue": 3,
+      "StringValue": "give_youth_a_chance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2f459505",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation",
+      "NumericValue": 4,
+      "StringValue": "unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9bf24ad9",
+      "CodeType": "Normal",
+      "DisplayText": "youth are educated",
+      "NumericValue": 5,
+      "StringValue": "youth_are_educated",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-51573e14",
+      "CodeType": "Normal",
+      "DisplayText": "drama impact/impressions",
+      "NumericValue": 6,
+      "StringValue": "drama_impact_or_impressions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a4deaf48",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
