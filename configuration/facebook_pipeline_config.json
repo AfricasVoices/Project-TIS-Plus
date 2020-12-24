@@ -24,14 +24,14 @@
     },
     {
       "SourceType": "Facebook",
-      "PageID": "548414038603623",
+      "PageID": "M2amedia",
       "TokenFileURL": "gs://avf-credentials/M2A-Media-Communication-Consultancy-548414038603623-facebook-token.txt",
       "Datasets": [
-        {"Name": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623", "PostIDs": [
-           "548414038603623_3174086306036370",
-           "548414038603623_3174091339369200"
+        {"Name": "facebook_s09e02_M2amedia", "PostIDs": [
+          "548414038603623_3174086306036370",
+          "548414038603623_3174091339369200"
         ]},
-        {"Name": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623", "PostIDs": [
+        {"Name": "facebook_s09e03_M2amedia", "PostIDs": [
           "548414038603623_3178012575643743",
           "548414038603623_3182529431858724",
           "548414038603623_3184314775013523"
@@ -47,30 +47,30 @@
   "SourceKeyRemappings": [
     {"SourceKey": "avf_facebook_id", "PipelineKey": "uid"},
 
-    {"SourceKey": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623.message", "PipelineKey": "facebook_s09e02_raw"},
-    {"SourceKey": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623.id", "PipelineKey": "facebook_s09e02_comment_id"},
-    {"SourceKey": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623.created_time", "PipelineKey": "sent_on"},
-    {"SourceKey": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623.parent", "PipelineKey": "facebook_s09e02_comment_reply_to_raw"},
-    {"SourceKey": "facebook_s09e02_M2A-Media-Communication-Consultancy-548414038603623.post", "PipelineKey": "facebook_s09e02_post_raw"},
+    {"SourceKey": "facebook_s09e02_M2amedia.message", "PipelineKey": "facebook_s09e02_raw"},
+    {"SourceKey": "facebook_s09e02_M2amedia.id", "PipelineKey": "facebook_s09e02_comment_id"},
+    {"SourceKey": "facebook_s09e02_M2amedia.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s09e02_M2amedia.parent", "PipelineKey": "facebook_s09e02_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s09e02_M2amedia.post", "PipelineKey": "facebook_s09e02_post_raw"},
 
-    {"SourceKey": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623.message", "PipelineKey": "facebook_s09e03_raw"},
-    {"SourceKey": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623.id", "PipelineKey": "facebook_s09e03_comment_id"},
-    {"SourceKey": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623.created_time", "PipelineKey": "sent_on"},
-    {"SourceKey": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623.parent", "PipelineKey": "facebook_s09e03_comment_reply_to_raw"},
-    {"SourceKey": "facebook_s09e03_M2A-Media-Communication-Consultancy-548414038603623.post", "PipelineKey": "facebook_s09e03_post_raw"},
+    {"SourceKey": "facebook_s09e03_M2amedia.message", "PipelineKey": "facebook_s09e03_raw"},
+    {"SourceKey": "facebook_s09e03_M2amedia.id", "PipelineKey": "facebook_s09e03_comment_id"},
+    {"SourceKey": "facebook_s09e03_M2amedia.created_time", "PipelineKey": "sent_on"},
+    {"SourceKey": "facebook_s09e03_M2amedia.parent", "PipelineKey": "facebook_s09e03_comment_reply_to_raw"},
+    {"SourceKey": "facebook_s09e03_M2amedia.post", "PipelineKey": "facebook_s09e03_post_raw"},
 
     {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.message", "PipelineKey": "facebook_s09e01_raw"},
     {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.id", "PipelineKey": "facebook_s09e01_comment_id"},
     {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
     {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.parent", "PipelineKey": "facebook_s09e01_comment_reply_to_raw"},
     {"SourceKey": "facebook_s09e01_AbdirizakHAtosh.post", "PipelineKey": "facebook_s09e01_post_raw"},
-    
+
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.message", "PipelineKey": "facebook_s09e02_raw"},
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.id", "PipelineKey": "facebook_s09e02_comment_id"},
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.parent", "PipelineKey": "facebook_s09e02_comment_reply_to_raw"},
     {"SourceKey": "facebook_s09e02_AbdirizakHAtosh.post", "PipelineKey": "facebook_s09e02_post_raw"},
-    
+
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.message", "PipelineKey": "facebook_s09e03_raw"},
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.id", "PipelineKey": "facebook_s09e03_comment_id"},
     {"SourceKey": "facebook_s09e03_AbdirizakHAtosh.created_time", "PipelineKey": "sent_on"},
