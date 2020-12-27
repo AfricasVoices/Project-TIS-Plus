@@ -21,7 +21,8 @@
         "csap_demog",
         "csap_s02_demog",
         "csap_s03_demog",
-        "csap_s09_demog"
+        "csap_s09_demog",
+        "csap_s09_evaluation"
       ],
       "TestContactUUIDs": [
         "6f251195-5889-437a-a8b5-ad74b8e4eb62",
@@ -208,7 +209,12 @@
     {"SourceKey": "Recently_Displaced (Text) - csap_s09_demog", "PipelineKey": "recently_displaced_raw"},
     {"SourceKey": "Recently_Displaced (Time) - csap_s09_demog", "PipelineKey": "recently_displaced_time"},
     {"SourceKey": "Idp_Camp (Text) - csap_s09_demog", "PipelineKey": "in_idp_camp_raw"},
-    {"SourceKey": "Idp_Camp (Time) - csap_s09_demog", "PipelineKey": "in_idp_camp_time"}
+    {"SourceKey": "Idp_Camp (Time) - csap_s09_demog", "PipelineKey": "in_idp_camp_time"},
+
+    {"SourceKey": "Csap_S09_Have_Voice (Text) - csap_s09_evaluation", "PipelineKey":  "s09_have_voice_raw"},
+    {"SourceKey": "Csap_S09_Have_Voice (Time) - csap_s09_evaluation", "PipelineKey":  "s09_have_voice_time"},
+    {"SourceKey": "Csap_S09_Suggestions (Text) - csap_s09_evaluation", "PipelineKey":  "s09_suggestions_raw"},
+    {"SourceKey": "Csap_S09_Suggestions (Time) - csap_s09_evaluation", "PipelineKey":  "s09_suggestions_time"}
   ],
   "ProjectStartDate": "2020-10-12T16:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00+03:00",

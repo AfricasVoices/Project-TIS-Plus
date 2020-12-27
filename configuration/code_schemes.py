@@ -39,4 +39,7 @@ class CodeSchemes(object):
     IN_IDP_CAMP = _open_scheme("in_idp_camp.json")
     RECENTLY_DISPLACED = _open_scheme("recently_displaced.json")
 
+    S09_HAVE_VOICE = _open_scheme("s09_have_voice.json")
+    S09_SUGGESTIONS = _open_scheme("s09_suggestions.json")
+
     WS_CORRECT_DATASET = _open_scheme("ws_correct_dataset.json")
