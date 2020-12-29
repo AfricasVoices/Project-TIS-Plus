@@ -29,6 +29,9 @@ DATASETS=(
     "TIS_Plus_facebook_s09e02"
     "TIS_Plus_facebook_s09e03"
 
+    "TIS_Plus_s09_have_voice"
+    "TIS_Plus_s09_suggestions"
+
     "CSAP_age"
     "CSAP_gender"
     "CSAP_location"

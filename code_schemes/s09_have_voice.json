@@ -1,63 +1,43 @@
 {
-  "SchemeID": "Scheme-51da4ad7",
-  "Name": "RQA S09E07",
-  "Version": "0.0.0.1",
+  "SchemeID": "Scheme-077bfe7c",
+  "Name": "S09 Have Voice",
+  "Version": "0.0.0.2",
   "Codes": [
     {
-      "CodeID": "code-07f3e9aa",
+      "CodeID": "code-7be6e5d1",
       "CodeType": "Normal",
-      "DisplayText": "youth can bring change",
+      "DisplayText": "yes",
       "NumericValue": 1,
-      "StringValue": "youth_can_bring_change",
-      "VisibleInCoda": true
+      "StringValue": "yes",
+      "Shortcut": "y",
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "yes"
+      ]
     },
     {
-      "CodeID": "code-9747155d",
+      "CodeID": "code-8bf6a963",
       "CodeType": "Normal",
-      "DisplayText": "youth are/can be the real leaders",
+      "DisplayText": "no",
+      "Shortcut": "n",
       "NumericValue": 2,
-      "StringValue": "youth_are_or_can_be_the_real_leaders",
-      "VisibleInCoda": true
+      "StringValue": "no",
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "no"
+      ]
     },
     {
-      "CodeID": "code-7f98d4e3",
+      "CodeID": "code-b7113b5d",
       "CodeType": "Normal",
-      "DisplayText": "give youth a chance",
+      "DisplayText": "ambivalent",
+      "Shortcut": "a",
       "NumericValue": 3,
-      "StringValue": "give_youth_a_chance",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-2f459505",
-      "CodeType": "Normal",
-      "DisplayText": "unity and cooperation",
-      "NumericValue": 4,
-      "StringValue": "unity_and_cooperation",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-9bf24ad9",
-      "CodeType": "Normal",
-      "DisplayText": "youth are educated",
-      "NumericValue": 5,
-      "StringValue": "youth_are_educated",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-51573e14",
-      "CodeType": "Normal",
-      "DisplayText": "drama impact/impressions",
-      "NumericValue": 6,
-      "StringValue": "drama_impact_or_impressions",
-      "VisibleInCoda": true
-    },
-    {
-      "CodeID": "code-a4deaf48",
-      "CodeType": "Normal",
-      "DisplayText": "other theme",
-      "NumericValue": 7,
-      "StringValue": "other_theme",
-      "VisibleInCoda": true
+      "StringValue": "ambivalent",
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "ambivalent"
+      ]
     },
     {
       "CodeID": "code-NA-f93d3eb7",
@@ -201,33 +181,6 @@
       "DisplayText": "meta: exclusion complaint",
       "NumericValue": -100070,
       "StringValue": "exclusion_complaint",
-      "VisibleInCoda": true
-    },
-    {
-      "DisplayText": "meta: gratitude",
-      "VisibleInCoda": true,
-      "NumericValue": -100100,
-      "CodeID": "code-GR-e6de1b7e",
-      "CodeType": "Meta",
-      "MetaCode": "gratitude",
-      "StringValue": "gratitude"
-    },
-    {
-      "NumericValue": -100130,
-      "CodeID": "code-CR-8e99616b",
-      "CodeType": "Meta",
-      "MetaCode": "chasing_reply",
-      "StringValue": "chasing_reply",
-      "DisplayText": "meta: chasing reply",
-      "VisibleInCoda": true
-    },
-    {
-      "NumericValue": -100140,
-      "CodeID": "code-I-b13a41f6",
-      "CodeType": "Meta",
-      "MetaCode": "impact",
-      "StringValue": "impact",
-      "DisplayText": "meta: impact",
       "VisibleInCoda": true
     }
   ]
