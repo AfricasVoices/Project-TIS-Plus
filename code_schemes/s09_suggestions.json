@@ -3,7 +3,62 @@
   "Name": "S09 Suggestions",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-ae583583",
+      "CodeType": "Normal",
+      "DisplayText": "improve radio stations",
+      "NumericValue": 1,
+      "StringValue": "improve_radio_stations",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b849d4e0",
+      "CodeType": "Normal",
+      "DisplayText": "diversification of programs",
+      "NumericValue": 2,
+      "StringValue": "diversification_of_programs",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-99e5b33a",
+      "CodeType": "Normal",
+      "DisplayText": "community awareness",
+      "NumericValue": 3,
+      "StringValue": "community_awareness",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-345eb143",
+      "CodeType": "Normal",
+      "DisplayText": "honesty from radio broadcast",
+      "NumericValue": 4,
+      "StringValue": "honesty_from_radio_broadcast",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f4b41ff8",
+      "CodeType": "Normal",
+      "DisplayText": "promote peace",
+      "NumericValue": 5,
+      "StringValue": "promote_peace",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-90e86612",
+      "CodeType": "Normal",
+      "DisplayText": "consistent or continued shows",
+      "NumericValue": 6,
+      "StringValue": "consistent_or_continued_shows",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c178401c",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
