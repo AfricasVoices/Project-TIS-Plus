@@ -198,10 +198,18 @@ if __name__ == "__main__":
                     if not cc.include_in_theme_distribution:
                         continue
 
-                    code = cc.code_scheme.get_code_with_code_id(ind[cc.coded_field]["CodeID"])
-                    if code.control_code == Codes.STOP:
-                        continue
-                    demographic_distributions[cc.analysis_file_key][code.string_value] += 1
+                    if cc.coding_mode == CodingModes.SINGLE:
+                        codes = [cc.code_scheme.get_code_with_code_id(ind[cc.coded_field]["CodeID"])]
+                    else:
+                        assert cc.coding_mode == CodingModes.MULTIPLE
+                        codes = []
+                        for label in ind[cc.coded_field]:
+                            codes.append(cc.code_scheme.get_code_with_code_id(label["CodeID"]))
+
+                    for code in codes:
+                        if code.control_code == Codes.STOP:
+                            continue
+                        demographic_distributions[cc.analysis_file_key][code.string_value] += 1
 
         with open(f"{automated_analysis_output_dir}/demographic_distributions.csv", "w") as f:
             headers = ["Demographic", "Code", "Number of Participants"]
@@ -394,6 +402,8 @@ if __name__ == "__main__":
 
         for sample in samples:
             writer.writerow(sample)
+
+    exit(0)
     
     log.info("Loading the Somali regions geojson...")
     regions_map = geopandas.read_file("geojson/somalia_regions.geojson")
