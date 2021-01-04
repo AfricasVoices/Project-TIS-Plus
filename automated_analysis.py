@@ -403,8 +403,6 @@ if __name__ == "__main__":
         for sample in samples:
             writer.writerow(sample)
 
-    exit(0)
-    
     log.info("Loading the Somali regions geojson...")
     regions_map = geopandas.read_file("geojson/somalia_regions.geojson")
 
