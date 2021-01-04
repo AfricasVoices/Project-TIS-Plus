@@ -3,7 +3,78 @@
   "Name": "RQA S09E08",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-cb0ed71b",
+      "CodeType": "Normal",
+      "DisplayText": "give women a chance",
+      "NumericValue": 1,
+      "StringValue": "give_women_a_chance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4ede94f6",
+      "CodeType": "Normal",
+      "DisplayText": "women can bring change",
+      "NumericValue": 2,
+      "StringValue": "women_can_bring_change",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e9293218",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation",
+      "NumericValue": 3,
+      "StringValue": "unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-af14de84",
+      "CodeType": "Normal",
+      "DisplayText": "religion does not allow",
+      "NumericValue": 4,
+      "StringValue": "religion_does_not_allow",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-59e7089f",
+      "CodeType": "Normal",
+      "DisplayText": "women cannot bring change",
+      "NumericValue": 5,
+      "StringValue": "women_cannot_bring_change",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-61835d30",
+      "CodeType": "Normal",
+      "DisplayText": "women should stay home",
+      "NumericValue": 6,
+      "StringValue": "women_should_stay_home",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cb2281b7",
+      "CodeType": "Normal",
+      "DisplayText": "encouragement and awareness creation",
+      "NumericValue": 7,
+      "StringValue": "encouragement_and_awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-8b1af9df",
+      "CodeType": "Normal",
+      "DisplayText": "drama impact or impressions",
+      "NumericValue": 8,
+      "StringValue": "drama_impact_or_impressions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-764980b5",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
