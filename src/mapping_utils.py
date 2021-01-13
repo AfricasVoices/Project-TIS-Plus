@@ -15,7 +15,7 @@ class MappingUtils(object):
 
     @classmethod
     def plot_frequency_map(cls, geo_data, admin_id_column, frequencies, label_position_columns=None,
-                           callout_position_columns=None, ax=None):
+                           callout_position_columns=None, admin_name_column=None, ax=None):
         """
         Plots a map of the given geo data with a choropleth showing the frequency of responses in each administrative
         region.
@@ -44,6 +44,9 @@ class MappingUtils(object):
                                          for this feature.
                                          If None, no callout lines are drawn.
         :type callout_position_columns: (str, str) | None
+        :param admin_name_column: Column in `geo_data` of the region name to display in each region, along with the
+                                  total counts. If None, only the counts will be drawn.
+        :type admin_name_column: str | None
         :param ax: Axes on which to draw the plot. If None, draws to a new figure.
         :type ax: matplotlib.pyplot.Artist | None
         """
@@ -104,10 +107,14 @@ class MappingUtils(object):
                     xytext = None
                 else:
                     # Draw label and callout line.
-                    xy = (admin_region[callout_position_columns[0]], admin_region[callout_position_columns[1]])
-                    xytext = (admin_region[label_position_columns[0]], admin_region[label_position_columns[1]])
+                    xy = (admin_region[label_position_columns[0]], admin_region[label_position_columns[1]])
+                    xytext = (admin_region[callout_position_columns[0]], admin_region[callout_position_columns[1]])
 
-                plt.annotate(text=frequencies[admin_region[admin_id_column]],
-                             xy=xy, xytext=xytext,
+                if admin_name_column is None:
+                    text = frequencies[admin_region[admin_id_column]]
+                else:
+                    text = admin_region[admin_name_column] + "\n" + str(frequencies[admin_region[admin_id_column]])
+
+                plt.annotate(text=text, xy=xy, xytext=xytext,
                              arrowprops=dict(facecolor="black", arrowstyle="-", linewidth=0.1, shrinkA=0, shrinkB=0),
                              ha="center", va="center", fontsize=3.8)
