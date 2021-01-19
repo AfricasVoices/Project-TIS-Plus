@@ -527,7 +527,9 @@ if __name__ == "__main__":
 
     fig, ax = plt.subplots()
     MappingUtils.plot_frequency_map(mogadishu_map, "ADM3_AVF", mogadishu_frequencies, ax=ax,
-                                    label_position_columns=("ADM3_LX", "ADM3_LY"))
+                                    admin_name_column="ADM3_NAME",
+                                    label_position_columns=("ADM3_LX", "ADM3_LY"),
+                                    callout_position_columns=("ADM3_CALLX", "ADM3_CALLY"))
     plt.savefig(f"{automated_analysis_output_dir}/maps/mogadishu/mogadishu_total_participants.png", dpi=1200, bbox_inches="tight")
     plt.close(fig)
 
@@ -544,8 +546,11 @@ if __name__ == "__main__":
                             episode["Total Relevant Participants"][f"mogadishu_sub_district:{sub_district_code.string_value}"]
 
                 fig, ax = plt.subplots()
-                MappingUtils.plot_frequency_map(mogadishu_map, "ADM3_AVF", rqa_total_mogadishu_frequencies, ax=ax,
-                                                label_position_columns=("ADM3_LX", "ADM3_LY"))
+                MappingUtils.plot_frequency_map(mogadishu_map, "ADM3_AVF", rqa_total_mogadishu_frequencies,
+                                                admin_name_column="ADM3_NAME",
+                                                label_position_columns=("ADM3_LX", "ADM3_LY"),
+                                                callout_position_columns=("ADM3_CALLX", "ADM3_CALLY"),
+                                                ax=ax)
                 plt.savefig(f"{automated_analysis_output_dir}/maps/mogadishu/mogadishu_{cc.analysis_file_key}_1_total_relevant.png",
                             dpi=1200, bbox_inches="tight")
                 plt.close(fig)
@@ -567,8 +572,11 @@ if __name__ == "__main__":
                                 demographic_counts[f"mogadishu_sub_district:{sub_district_code.string_value}"]
 
                     fig, ax = plt.subplots()
-                    MappingUtils.plot_frequency_map(mogadishu_map, "ADM3_AVF", mogadishu_theme_frequencies, ax=ax,
-                                                    label_position_columns=("ADM3_LX", "ADM3_LY"))
+                    MappingUtils.plot_frequency_map(mogadishu_map, "ADM3_AVF", mogadishu_theme_frequencies,
+                                                    admin_name_column="ADM3_NAME",
+                                                    label_position_columns=("ADM3_LX", "ADM3_LY"),
+                                                    callout_position_columns=("ADM3_CALLX", "ADM3_CALLY"),
+                                                    ax=ax)
                     plt.savefig(
                         f"{automated_analysis_output_dir}/maps/mogadishu/mogadishu_{cc.analysis_file_key}_{map_index}_{code.string_value}.png",
                         dpi=1200, bbox_inches="tight")
